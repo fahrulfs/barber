@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="Icon" href="./assets/logo.svg">
+    <title>TheBarber</title>
+</head>
+
+<body class="font-mainFont bg-white dark:bg-zinc-950 dark:fill-white">
+    <!--==============  HEADER =================-->
+    <section class="top-0 flex flex-wrap sm:justify-start sm:flex-nowrap w-full text-sm sm:py-0 uppercase">
+        <nav id="navbar"
+            class=" z-50 bg-black text-white w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between md:px-8 lg:px-12 "
+            aria-label="Global">
+            <div class="flex items-center justify-between py-4">
+                <a href="">
+                    <img src="assets/logo.svg" alt="" class="w-12 md:w-20 lg:w-24">
+                </a>
+                <div class="sm:hidden ">
+                    <button type="button"
+                        class="hs-collapse-toggle size-9 flex justify-center items-center gap-x-2 text-sm font-semibold  border border-white/20 text-main hover:border-white/40 disabled:opacity-50 disabled:pointer-events-none"
+                        data-hs-collapse="#navbar-collapse-with-animation"
+                        aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
+                        <svg class="hs-collapse-open:hidden flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="3" x2="21" y1="6" y2="6" />
+                            <line x1="3" x2="21" y1="12" y2="12" />
+                            <line x1="3" x2="21" y1="18" y2="18" />
+                        </svg>
+                        <svg class="hs-collapse-open:block hidden flex-shrink-0 size-4"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 6 6 18" />
+                            <path d="m6 6 12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="navbar-collapse-with-animation"
+                class="p-2 md:p-0 lg:p-0 lg:bg-transparent md:bg-transparent hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
+                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-end py-2 md:py-0 sm:ps-7">
+                    <a class="py-3 ps-px sm:px-3 font-medium text-white hover:text-main" href="index.html">home</a>
+                    <a class="py-3 ps-px sm:px-3 font-medium text-white hover:text-main" href="team.html">our team</a>
+                    <a class="py-3 ps-px sm:px-3 font-semibold text-main hover:text-main"
+                        href="gallery.html">gallery</a>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- ========== END HEADER ========== -->
+
+    <!-- CHOOSE US -->
+    <section class="w-full mt-5 mb-10">
+        <div class="w-full px-4 mx:px-8 lg:px-12 mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 
+        gap-4">
+
+            <img src="assets/gal1.svg" alt="">
+            <img src="assets/gal3.svg" alt="">
+            <img src="assets/gal4.svg" alt="">
+        </div>
+    </section>
+    <div class="text-center mb-10 w-full px-4 md:px-8 lg:px-12 lg:flex lg:items-center lg:justify-center">
+        <a href="index.html#appointment">
+            <button class="btn-primary">book an appointment
+                <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="m9 18 6-6-6-6" />
+                </svg>
+            </button>
+        </a>
+        <div class="m-3">
+            <a href="index.html#service">
+                <button class="btn-secondary text-black dark:text-main">broswe services</button>
+            </a>
+        </div>
+
+    </div>
+    <!-- CHOOSE US -->
+
+
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="mt-auto w-full py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-black">
+
+        <div class="text-center">
+            <div class="flex justify-center">
+                <a class="" href="#"><img src="assets/logo.svg" alt=""></a>
+            </div>
+
+            <ul class="text-center mt-5">
+                <li
+                    class="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-neutral-600">
+                    <a class="inline-flex gap-x-2 text-sm text-white hover:text-main" href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li
+                    class="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-neutral-600">
+                    <a class="inline-flex gap-x-2 text-sm text-white hover:text-main" href="team.html">
+                        Our Team
+                    </a>
+                </li>
+                <li
+                    class="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-neutral-600">
+                    <a class="inline-flex gap-x-2 text-sm text-white hover:text-main" href="gallery.html">
+                        Gallery
+                    </a>
+                </li>
+            </ul>
+            <div class="mt-3">
+                <p class="text-gray-500 dark:text-neutral-500">© THE BARBER | 2024 | All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ========== END FOOTER ========== -->
+
+    <!-- back to top dark mode -->
+    <a href="#" id="top"
+        class="block h-12 w-12 bg-main hover:shadow-lg duration-100 hover:scale-105 fixed z-40 bottom-4 right-4 text-center">
+        <img src="assets/top.svg" alt="">
+    </a>
+    <div class="flex h-12 w-12 bg-main fixed z-40 bottom-[80px] right-4 justify-center
+">
+        <button type="button"
+            class="hs-dark-mode-active:hidden block hs-dark-mode group items-center text-black text-xl hover:scale-125 duration-100"
+            data-hs-theme-click-value="dark">
+            <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+            </svg>
+        </button>
+        <button type="button"
+            class="hs-dark-mode-active:block hidden hs-dark-mode group items-center text-black text-xl hover:scale-125 duration-100"
+            data-hs-theme-click-value="light">
+            <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="4"></circle>
+                <path d="M12 2v2"></path>
+                <path d="M12 20v2"></path>
+                <path d="m4.93 4.93 1.41 1.41"></path>
+                <path d="m17.66 17.66 1.41 1.41"></path>
+                <path d="M2 12h2"></path>
+                <path d="M20 12h2"></path>
+                <path d="m6.34 17.66-1.41 1.41"></path>
+                <path d="m19.07 4.93-1.41 1.41"></path>
+            </svg>
+        </button>
+    </div>
+    <!-- back to top dark mode -->
+    <script src="../node_modules/preline/dist/preline.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
