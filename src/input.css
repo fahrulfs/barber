@@ -17,3 +17,6 @@
     @apply py-3 px-4 inline-flex items-center gap-x-2 text-sm font-bold  border border-main text-white hover:bg-main hover:text-black uppercase hover:scale-105 duration-200;
   }
 }
+#dark-toogle:checked-label div.toogle-circle {
+  @apply translate-x-4;
+}
