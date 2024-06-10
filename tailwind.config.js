@@ -13,8 +13,9 @@ module.exports = {
         'mainFont': ["Barlow", "sans-serif"],
       },
       backgroundImage: {
-        "hero": "url('/public/assets/hero.svg')",
-        "heroCta": "url('/public/assets/hero1.svg')"
+        "hero": "url('/public/assets/hero.jpg')",
+        "heroMobile": "url('/public/assets/hero-mobile.png')",
+        "heroCta": "url('/public/assets/hero1.jpg')"
 
       },
        colors: {

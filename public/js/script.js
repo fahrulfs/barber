@@ -115,26 +115,31 @@ sr.reveal('.choose_icon3', {
 
 // Gallery
 sr.reveal('.gallery_1', {
-  origin: 'right',
+  origin: 'left',
   opacity:0.9
 })
 sr.reveal('.gallery_2', {
-  origin: 'left',
-  opacity:0.9
-})
-sr.reveal('.gallery_3', {
   origin: 'right',
   opacity:0.9
 })
-sr.reveal('.gallery_4', {
+sr.reveal('.gallery_3', {
   origin: 'left',
   opacity:0.9
 })
+sr.reveal('.gallery_4', {
+  origin: 'right',
+  opacity:0.9
+})
 sr.reveal('.gallery_5', {
+  origin: 'left',
+  opacity:0.9
+})
+sr.reveal('.gallery_6', {
   origin: 'right',
   opacity:0.9
 })
 
+// team
 sr.reveal('.team_1', {
   origin: 'left',
   opacity:0.9
