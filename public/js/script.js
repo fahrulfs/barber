@@ -55,3 +55,107 @@ moonIcon.addEventListener('click', () => {
   localStorage.theme = 'light';
   setTheme('light'); 
 });
+
+
+
+window.sr = ScrollReveal({
+  reset: true,
+  duration: 1500,
+  distance: '60px',
+  origin:'bottom'
+  // delay:300
+});
+
+// TITTLE / SUB
+sr.reveal('.textmain', {
+  origin: 'top'
+})
+sr.reveal('.textinfo', {
+  intervat: 100
+})
+// HERO SECTION
+
+// ADRESS
+sr.reveal('.address')
+sr.reveal('.email')
+sr.reveal('.phone')
+sr.reveal('.hours')
+// ADRESS
+
+// about
+sr.reveal('.about_left', {
+  origin: 'left'
+})
+sr.reveal('.about_right', {
+  origin:'right',
+})
+// about
+
+// service
+sr.reveal('.service_right', {
+  origin: 'left',
+  opacity:0.9
+})
+sr.reveal('.service_left', {
+  origin: 'right',
+  opacity:0.9
+})
+// service
+sr.reveal('.choose_icon1', {
+  origin: 'left',
+  opacity:0.9
+})
+sr.reveal('.choose_icon2', {
+  opacity:0.9
+})
+sr.reveal('.choose_icon3', {
+  origin: 'right',
+  opacity:0.9
+})
+
+// Gallery
+sr.reveal('.gallery_1', {
+  origin: 'right',
+  opacity:0.9
+})
+sr.reveal('.gallery_2', {
+  origin: 'left',
+  opacity:0.9
+})
+sr.reveal('.gallery_3', {
+  origin: 'right',
+  opacity:0.9
+})
+sr.reveal('.gallery_4', {
+  origin: 'left',
+  opacity:0.9
+})
+sr.reveal('.gallery_5', {
+  origin: 'right',
+  opacity:0.9
+})
+
+sr.reveal('.team_1', {
+  origin: 'left',
+  opacity:0.9
+})
+sr.reveal('.team_2', {
+  origin: 'right',
+  opacity:0.9
+})
+sr.reveal('.team_3', {
+  origin: 'left',
+  opacity:0.9
+})
+sr.reveal('.team_4', {
+  origin: 'right',
+  opacity:0.9
+})
+sr.reveal('.team_5', {
+  origin: 'left',
+  opacity:0.9
+})
+sr.reveal('.team_6', {
+  origin: 'right',
+  opacity:0.9
+})

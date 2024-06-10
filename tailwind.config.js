@@ -22,7 +22,8 @@ module.exports = {
          'second':'#9d9570',
             
           // Configure your color palette here
-        }
+      },
+  
     },
   },
   plugins: [
