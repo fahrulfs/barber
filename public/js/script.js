@@ -63,7 +63,6 @@ window.sr = ScrollReveal({
   duration: 1500,
   distance: '60px',
   origin:'bottom'
-  // delay:300
 });
 
 // TITTLE / SUB

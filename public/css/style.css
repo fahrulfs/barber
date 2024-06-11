@@ -1020,6 +1020,10 @@ video {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
+.overflow-auto{
+  overflow: auto;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -1135,10 +1139,6 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-\[url\(\'\/public\/assets\/hero\.svg\'\)\]{
-  background-image: url('/public/assets/hero.svg');
-}
-
 .bg-gradient-to-b{
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -1149,10 +1149,6 @@ video {
 
 .bg-heroMobile{
   background-image: url('/public/assets/hero-mobile.png');
-}
-
-.bg-hero{
-  background-image: url('/public/assets/hero.jpg');
 }
 
 .from-transparent{
@@ -1478,6 +1474,14 @@ video {
 #dark-toogle:checked-label div.toogle-circle{
   --tw-translate-x: 1rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+/* scroll reveal fix */
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .placeholder\:uppercase::-moz-placeholder{
