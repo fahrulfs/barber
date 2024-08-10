@@ -1020,20 +1020,12 @@ video {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
-.overflow-auto{
-  overflow: auto;
-}
-
 .overflow-hidden{
   overflow: hidden;
 }
 
 .overflow-x-auto{
   overflow-x: auto;
-}
-
-.overflow-x-hidden{
-  overflow-x: hidden;
 }
 
 .scroll-smooth{
@@ -1674,38 +1666,6 @@ body {
 
 .group:hover .group-hover\:opacity-100{
   opacity: 1;
-}
-
-.hs-collapse.open .hs-collapse-open\:block{
-  display: block;
-}
-
-.hs-collapse.open .hs-collapse-open\:hidden{
-  display: none;
-}
-
-.hs-collapse.open.hs-collapse-open\:block{
-  display: block;
-}
-
-.hs-collapse.open.hs-collapse-open\:hidden{
-  display: none;
-}
-
-.hs-collapse-toggle.open .hs-collapse-open\:block{
-  display: block;
-}
-
-.hs-collapse-toggle.open .hs-collapse-open\:hidden{
-  display: none;
-}
-
-.hs-collapse-toggle.open.hs-collapse-open\:block{
-  display: block;
-}
-
-.hs-collapse-toggle.open.hs-collapse-open\:hidden{
-  display: none;
 }
 
 .selected .hs-combo-box-selected\:block{

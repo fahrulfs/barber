@@ -15,11 +15,19 @@ window.onscroll = function () {
   
 }
 const hamburger = document.getElementById('hamburger')
+const hamburgerClose = document.getElementById('hamburger-close')
 const navMenu = document.getElementById('nav-menu')
-
 hamburger.addEventListener('click', function () {
-    hamburger.classList.toggle('hamburger-active')
-  navMenu.classList.toggle('hidden')
+  hamburger.classList.add('hidden')
+  navMenu.classList.remove('hidden')
+  hamburgerClose.classList.remove('hidden')
+
+});
+hamburgerClose.addEventListener('click', function () {
+  hamburger.classList.remove('hidden')
+  navMenu.classList.add('hidden')
+  hamburgerClose.classList.add('hidden')
+  
 });
 
 
@@ -163,3 +171,4 @@ sr.reveal('.team_6', {
   origin: 'right',
   opacity:0.9
 })
+
